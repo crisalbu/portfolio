@@ -1,0 +1,86 @@
+body {
+   background: rgb(252, 119, 83);
+   transition: 0.3s all;
+}
+
+/* Navigation bar */
+
+header{
+   width: 100%;
+   position: fixed;
+   top:0;
+   left:0;
+}
+
+h1 {
+   size: 72px;
+}
+
+.nav{
+   margin: 20px 10%;
+}
+
+.nav > li > a {
+   color:white;
+   transition: 0.5s all;
+}
+
+.nav > li > a:hover{
+   color: black;
+   transition: 0.5s all;
+}
+
+.white-display {
+   background: rgb(234, 234, 234);
+   transition: 0.3s all;
+}
+
+.grey-links > li > a {
+   /* transition: 0.5s all; */
+   color: grey;
+}
+.grey-links > li > a:hover{
+   color:black;
+   transition: 0.5s all;
+}
+
+/* Main Page*/
+
+#main-page {
+   height: 100vh;
+}
+
+#main-page img{
+   width:100%;
+}
+
+#main-page h1, h2 {
+   font-family: Gilroy, Roboto, sans-serif;
+   font-weight: bolder;
+   text-align: center;
+   color: white;
+   /* position: absolute;
+   z-index: 1; */
+}
+
+#main-page h2{
+   font-size: 2.5rem;;
+   color: #F7EDE2; //#EEEBD0
+}
+
+.uppper-space{
+   margin-top: 10%;
+}
+
+.monochrome{
+   filter: grayscale(100%);
+
+}
+
+#tools {
+   height: 80vh;
+}
+
+#tools h1 {
+   text-align: center
+}
